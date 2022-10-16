@@ -1,0 +1,35 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --cyan: rgb(77, 240, 255);
+}
+
+body {
+    font-family: monospace;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#msg {
+    font-family: monospace;
+}
+
+.light-theme {
+    color: var(--black);
+    background: var(--cyan);
+}
+
+.dark-theme {
+    color: var(--white);
+    background: var(--black);
+}
